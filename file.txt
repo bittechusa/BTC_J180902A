@@ -1,0 +1,28 @@
+linux command
+cd ---change directory
+mkdir----to create a folder
+touch---to create a file
+cat---to see a file
+cd ..---to go one step back
+ls---to see list of file
+pwd---present work directory
+vi/nano---editor
+grep----to get substring from a file
+
+
+Git command
+if u  add or delete anything from local repo
+step1: go to repo level from terminal or git bash
+step2: git add -A
+step3: git commit -m "comments"
+step4: git pull origin (branchName)master
+step5:git push origin master(branchname)
+
+How to add  project from repo to eclipse
+1: in eclipse click file--> select import--> existing maven project--->browse the project--->finish
+
+
+
+
+
+
