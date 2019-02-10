@@ -22,6 +22,7 @@ public class BaseClass
 		if(b.equals("chrome")) {
 			if(r.equals("local"))
 			{
+				WebDriver dr=new ChromeDriver();
 				System.out.println("write code for opening browser");
 			}
 			else if(r.equals("remote"))
