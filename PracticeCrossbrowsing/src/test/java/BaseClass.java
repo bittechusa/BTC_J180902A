@@ -6,6 +6,8 @@ import java.util.Properties;
 
 import org.junit.Before;
 import org.junit.BeforeClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass
 {
@@ -23,6 +25,7 @@ public class BaseClass
 			if(r.equals("local"))
 			{
 				WebDriver dr=new ChromeDriver();
+				dr.get("http://www.google.com");
 				System.out.println("write code for opening browser");
 			}
 			else if(r.equals("remote"))
